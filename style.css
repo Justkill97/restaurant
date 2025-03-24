@@ -1,0 +1,190 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .header{
+    background-color: maroon;
+    text-align: center;
+  }
+  
+  header-h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  
+  
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  
+  .about{
+    background-color: lightgray;
+    text-align: center;
+  }
+  
+  
+  
+  .about h2{
+    padding-top: 50px;
+    color: black;
+  }
+  
+  .recipe-item{
+    background-color: white;
+    border: 2px solid maroon;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .recipe-item a:hover{
+    text-decoration: underline;
+  }
+  
+  
+  /*Navbar*/
+  .first {
+    color: #fff;
+  }
+  nav{
+    background-color: #98b8c3;
+    display: flex;
+    padding: 1.4% 6%;
+    justify-content: space-between;
+    align-items: center;
+    flex: auto;
+  }
+  h1{
+    font-size: 28px;
+  }
+  
+  nav img{
+    width: 150px;
+  }
+  .nav-links{
+    flex: 1;
+    text-align: right;
+  }
+  
+  .nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+  }
+  
+  .nav-links ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #485256;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+  }
+  
+  .nav-links ul li:hover:after{
+    width: 100%;
+  }
+  /*Recipes*/
+  .T1{
+    word-spacing: property;
+    text-align: center;
+  }
+  .T2{
+    word-spacing: property;
+    text-align: center;
+  }
+  
+  footer{
+    background-color: black;
+    color: #f0f0f8;
+    width: 100%;
+    text-align: center;
+  }
+  /*P1*/
+  .P1 {
+    margin: 0 auto;
+    width: 60%;
+    height: 60%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: block;
+    flex: auto;
+  }
+  /*home-page*/
+  
+  .recipe-card{
+    text-align: center;
+  }
+  .home-page{
+   align-items: center;
+  
+  }
+  
+  img.homeImage{
+   margin: 0 auto;
+    width: 60%;
+    height: 60%;
+    display: block;
+    flex: auto;
+  }
+  
+  .home-page, .homeP{
+   text-align: center;
+  }
+  
+  /*help navbar*/
+  .help-navigation {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+  }
+  
+  .help-navigation ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .help-navigation li {
+    margin: 0 10px;
+  }
+  
+  .help-navigation a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .help-navigation a:hover {
+    color: #0d7b7d; /* Change color on hover */
+  }
+  .Background{
+    margin: 0 auto;
+    width: 60%;
+    height: 60%;
+    display: block;
+    flex: auto;
+  }

@@ -1,0 +1,25 @@
+// Startup.cs
+public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+{
+    app.UseRouting();
+
+    app.UseEndpoints(endpoints =>
+    {
+        endpoints.MapControllerRoute(
+            name: "Jessica’s Giphy Website",
+            pattern: "{controller=Home}/{action=Index}/{id?}");
+    });
+}
+// HomeController.cs
+public class HomeController : Controller
+{
+    public IActionResult Index()
+    {
+        return View();
+    }
+
+    public IActionResult About()
+    {
+        return View();
+    }
+}
